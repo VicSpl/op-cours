@@ -1,0 +1,43 @@
+/*feuille de style*/
+@font-face {
+ font-family:"Mon-style";
+}
+body
+{
+ color: #801818;
+ text-align: justify;
+ font-family: 'Times New Roman', Times, serif;
+}
+#background
+{
+ background-color:lightgray;
+}
+#Spieler
+{
+ font-weight: bold;   
+}
+#Formation
+{
+ background-color:#696969; 
+}
+#Diplômes
+{
+ background-color:#696969;
+}
+#Expérience
+{
+ background-color:#696969;
+}
+#Langues
+{
+ background-color:#696969;
+}
+#Loisirs
+{
+ background-color:#696969; 
+}
+#bordure
+{
+ border: 2px solid black ;
+ box-shadow: 8px 8px 8px black;
+}
