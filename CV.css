@@ -1,12 +1,17 @@
 /*feuille de style*/
 @font-face {
  font-family:"Mon-style";
+
+}
+*{
+    box-sizing: border-box;
 }
 body
 {
  color: #801818;
  text-align: justify;
  font-family: 'Times New Roman', Times, serif;
+ position : relative;
 }
 #background
 {
@@ -14,17 +19,18 @@ body
 }
 #Spieler
 {
- font-weight: bold;   
+ font-weight: bold; 
+
 }
 #Formation
 {
  background-color:#696969; 
 }
-#Diplômes
+#Diplomes
 {
  background-color:#696969;
 }
-#Expérience
+#Experience
 {
  background-color:#696969;
 }
@@ -35,9 +41,51 @@ body
 #Loisirs
 {
  background-color:#696969; 
+ 
 }
 #bordure
 {
  border: 2px solid black ;
  box-shadow: 8px 8px 8px black;
 }
+#liseret {
+    border-left: 1px solid blue;
+    width:80px;
+    height:100%;
+    background-color: rgb(90, 35, 47);
+    position: absolute;
+}
+.info
+{
+  position : relative;
+  margin-left: 20%; 
+  margin-right: 20%;
+}
+
+.flexbOX {
+    display : flex;
+    flex-direction : row;
+}
+.max-width
+{
+    height: 100%;
+}
+
+@media all and (max-width: 800px)
+{
+    #liseret {
+        display: none;
+    }
+    .info 
+    {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .flexbOX {
+        flex-direction : column;
+    }
+
+}
+
+
