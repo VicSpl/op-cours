@@ -18,3 +18,9 @@ let commercialTime = 5;
 let totalShowTime = numberOfSeasons * numberOfEpisodes * (episodeTime + commercialTime)
 // ==========================================
 
+/* Troisième exercice */
+// =========================================
+let episodeTitle = 'Odin le redoutable';
+let episodeDuration = 48;
+let hasBeenWatched = true;
+// =========================================
